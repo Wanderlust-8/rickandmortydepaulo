@@ -1,0 +1,97 @@
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0px;
+    padding-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.cuadroTexto {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    background-color: rgba(11, 90, 95, 0.199);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    margin-top: 8px;
+}
+
+.cuadroTextoSearching {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    background-color: #074e45b0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    margin-top: 8px;
+    transition: all .5s ease-in-out;
+}
+
+.input {
+    margin-top: 12px;
+    margin-right: 00px;
+    width: 50px;
+    height: 22px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+@media (max-width: 500px) {
+    .input {
+        width: 50px;
+    }
+
+    .cuadroTexto {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+.contButton {
+    background-image: linear-gradient(to right, #006175 0%, #0ea591 100%);
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: #0ea591;
+    display: block;
+    height: 40;
+    font-size: 1.4em;
+    padding: 4px;
+    position: relative;
+    width: 4em;
+    z-index: 2;
+    margin: 10px;
+}
+
+.contButton:hover {
+    color: #fff;
+}
+
+.contButton .Button {
+    align-items: center;
+    background: #0e0e10;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+    color: #0ea591;
+    font-size: 14px;
+}
+
+.contButton:hover .Button {
+    background: transparent;
+    color: #fff;
+}

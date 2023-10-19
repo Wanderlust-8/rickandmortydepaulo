@@ -1,0 +1,16 @@
+require('dotenv').config();
+const server = require("../src/app");
+const { conn } = require('./DB_connection');
+const PORT = process.env.PORT || 3001;
+const SECURE = process.env.SECURE || false;
+
+let conSegura = '';
+SECURE ? conSegura = 'SECURE' : conSegura = 'NOT SECURE';
+
+conn.sync({ alter: true }).then(() => {
+    server.listen(PORT, () => {
+        console.log(`Server running into ${PORT} Port. DB Connection: ${conSegura}`);
+    });
+})
+    .catch(err => console.log(err))
+

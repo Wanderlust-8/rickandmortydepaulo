@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+}
+
+.containerDetails {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(15, 15, 15, 0.705);
+    padding: 20px;
+    border: 2px solid #0ea591;
+}
+
+.containerImg {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #0ea591;
+}
+
+.features {
+    color: antiquewhite;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
+.featuresTitle {
+    color: antiquewhite;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    align-items: center;
+}
+
+.img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.containerImgCargando {
+    background-color: rgba(15, 15, 15, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.imgCargando {
+    align-items: center;
+    text-align: center;
+    text-justify: auto;
+}

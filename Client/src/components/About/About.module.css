@@ -1,0 +1,38 @@
+.container {
+    background-color: rgba(15, 15, 15, 0.705);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    max-width: 70%;
+    margin: 10%;
+}
+
+.containerImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    max-width: 20%;
+    border-radius: 10%;
+    border: 2px solid #0ea591;
+}
+
+.img:hover {
+    border-radius: 50%;
+    -webkit-border-radius: 10%;
+    box-shadow: 0px 0px 15px 15px #0ea591;
+    -webkit-box-shadow: 0px 0px 15px 15px #0ea591;
+    transition: all .5s ease-in-out;
+}
+
+.Description {
+    color: antiquewhite;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}

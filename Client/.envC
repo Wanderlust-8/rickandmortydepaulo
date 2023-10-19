@@ -1,0 +1,16 @@
+VITE_API_URL_BASE=http://localhost:3001/rickandmorty
+VITE_ROOT=/
+VITE_LOGIN=/
+VITE_HOME=/home
+VITE_ABOUT=/about
+VITE_DETAIL=/detail/:id
+VITE_DETAILBASE=/detail
+VITE_FAVORITES=/favorites
+VITE_RM_CHARS=/character
+VITE_RM_LOGIN=/login
+VITE_RM_FAV=/fav
+VITE_IMG_LOGIN=/src/assets/RM_Main_Logo.png
+VITE_IMG_ESPERA=/src/assets/portal-rick-and-morty.gif
+VITE_IMG_ERR_DETAIL=/src/assets/errorDetail.jpeg
+VITE_IMG_ABOUT=/src/assets/About.jpg
+VITE_IMG_404=/src/assets/404.jpg

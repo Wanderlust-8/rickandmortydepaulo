@@ -1,0 +1,114 @@
+.container {
+    border-radius: 10px;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+
+    overflow: hidden;
+}
+
+.containerButtonImg {
+    max-width: 500px;
+    position: relative;
+    border: 2px solid #0ea591;
+}
+
+.containerButtonImg:hover {
+    filter: saturate(180%);
+}
+
+
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.buttonClose {
+    position: absolute;
+    background-color: rgba(15, 15, 15, 0.856);
+    color: #0ea591;
+    font-weight: bold;
+    border: 0px;
+    width: 30px;
+    height: 30px;
+    top: 0%;
+    left: 90%;
+}
+
+.buttonFav {
+    position: absolute;
+    background-color: rgba(15, 15, 15, 0);
+    border: 0px;
+    width: 20px;
+    height: 20px;
+    top: 0%;
+    left: 0%;
+    font-size: 24px;
+}
+
+.nameC {
+    position: absolute;
+    background-color: rgb(15, 15, 15);
+    color: #0ea591;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    height: 8%;
+    width: 100%;
+    top: 58%;
+    left: 0%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.containerFeatures {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: antiquewhite;
+    padding: 10px;
+    background-color: rgba(15, 15, 15, 0.705);
+}
+
+.features {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+
+}
+
+.featuresCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: antiquewhite;
+    background-color: rgba(11, 90, 95, 0.199);
+}
+
+.containerImgCargando {
+    background-color: rgba(223, 15, 15, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.imgCargando {
+    align-items: center;
+    text-align: center;
+    text-justify: auto;
+}
+
+.idC {
+    position: absolute;
+    background-color: rgba(15, 15, 15, 0.705);
+    color: #0ea591;
+    font-weight: bold;
+    border: 0px;
+    width: 52px;
+    height: 30px;
+    top: 48%;
+    left: 82%;
+    text-align: center;
+    border-radius: 50px;
+}
